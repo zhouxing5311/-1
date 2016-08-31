@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) UIView *leftV;
+@property (nonatomic, strong) UIView *rightV;
+@property (nonatomic, strong) UIView *mainV;
 
 @end
 
